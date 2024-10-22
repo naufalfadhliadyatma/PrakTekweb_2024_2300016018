@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Halaman Sederhana</h1>
+
+      <!-- Tombol untuk mengubah warna background -->
+      <button id="ubahHalaman">Ubah Warna Halaman</button>
+
+      <!-- Tombol untuk mengubah ukuran font dengan slider -->
+      <div class="font-size-control">
+        <label for="fontSizeSlider">Ukuran Font:</label>
+        <input type="range" id="fontSizeSlider" min="12" max="40" value="16" />
+      </div>
+
+      <!-- Tombol untuk mengubah tema gelap/terang -->
+      <button id="warnaGelapTerang">Ubah Tema Gelap/Terang</button>
+
+      <!-- Tombol untuk memilih jenis font -->
+      <div class="font-selector">
+        <label for="pilihFont">Jenis Font:</label>
+        <select id="pilihFont">
+          <option value="Cursive">Cursive</option>
+          <option value="arial">Arial</option>
+          <option value="serif">Serif</option>
+          <option value="Fantasy">Fantasy</option>
+        </select>
+      </div>
+
+      <p id="textContent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ex
+        nulla maxime. Culpa libero tempore tempora alias obcaecati doloremque,
+        animi in error aliquid minima pariatur dolorum, fugiat quia, est quam.
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
